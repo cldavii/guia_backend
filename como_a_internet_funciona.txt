@@ -1,0 +1,86 @@
+A internet é conhecida como uma rede de redes.
+
+O que é uma rede?
+Uma rede é um conjunto de dispositivos(Qualquer aparelho que se conecte a ela) interconectados através de cabos, Wi-Fi, Bluetooth, Infravermelho, Satélite, Redes Móveis(2G, 3G, 4G...), com a finalidade de compartilhar dados.
+
+Quais são os tipos de rede?
+As redes são divididas em 4 setores: PAN, LAN, MAN e WAN. A divisão desses setores se dá pelo alcance da rede, ou seja, a distancia máxima entre os dispositivos que estão conectados.
+Rede PAN(Personal Area Network): É uma rede de curto alcance que conecta dispositivos próximos a uma pessoa, como um smartphone, fones de ouvido, smartwatches e outros acessórios. Geralmente, essas conexões usam tecnologias sem fio como Bluetooth e infravermelho, permitindo a comunicação entre os aparelhos de forma fácil e rápida.
+Rede LAN(Local Area Network): É uma rede que conecta dispositivos dentro de uma área geográfica restrita, como uma casa, um escritório, um prédio, uma escola ou um campus universitário. O objetivo principal é permitir que os dispositivos compartilhem recursos (como impressoras, servidores de arquivos e internet) e se comuniquem uns com os outros.
+Rede MAN(Metropolitan Area Network): É uma rede de alcance intermediário que abrange uma área geográfica do tamanho de uma cidade, campus universitário ou um grupo de edifícios próximos. Sua principal função é conectar várias redes LANs entre si.
+Rede WAN(Wide Area Network): É uma rede de longa distância que conecta redes locais (LANs) e metropolitanas (MANs) que estão separadas por grandes distâncias geográficas, como cidades, estados ou países. A Internet é o principal exemplo de uma rede WAN.
+
+Como os dispositivos se comunicam dentro de uma rede?
+A comunicação entre dispositivos dentro de uma rede acontece através de um conjunto de regras e procedimentos, conhecido como protocolos.
+
+O que é um protocolo?
+Um protocolo é associado a um "idioma" aos quais os dispositivos utilizam para se comunicar.
+
+Quais os tipos de protocolos e como funcionam?
+TCP, IP, UDP, FTP, SMTP, HTTP, IMAP, POP3, SMPB, CIFS, etc...
+TCP(Transmission Control Protocol): O TCP é como um serviço de entrega confiável. Ele garante que os dados cheguem ao destino na ordem correta e sem erros. Ele faz isso dividindo os dados em pequenos pacotes, numerando-os e pedindo para reenviar qualquer pacote que se perca no caminho. É o protocolo ideal para quando a precisão é mais importante do que a velocidade, como em transferências de arquivos ou e-mails.
+IP(Internet Protocol): Pense no IP como o sistema de endereçamento da internet. Ele é responsável por dar a cada dispositivo um endereço IP e garantir que os pacotes de dados viajem do remetente para o destinatário correto. O IP não se preocupa com a ordem dos pacotes ou se eles chegaram, ele apenas se concentra em enviá-los para o lugar certo.
+
+NOTA: Os protocolos TCP e IP atuam em conjunto, de forma em que o TCP divide os dados e ordena para o envio e o IP define o remetente e o destinatário. E é por isso que são os protocolos mais importantes.
+
+UDP(User Datagram Protocol): O UDP é a alternativa ao TCP. Ele é muito mais rápido, mas não garante a entrega dos pacotes nem a ordem em que eles chegam. É como enviar um cartão postal: você envia e espera que chegue, mas não há confirmação de recebimento. O UDP é usado em aplicações onde a velocidade é crucial e uma pequena perda de dados é aceitável, como em jogos online, chamadas de vídeo e streaming de áudio.
+FTP(File Transfer Protocol): O FTP é usado para transferir arquivos entre computadores. Ele é mais antigo e, por isso, geralmente é usado com uma camada de segurança (SFTP, para "Secure FTP") para proteger os dados.
+SMTP(Simple Mail Transfer Protocol): O SMTP é o protocolo padrão para envio de mensagens de e-mail. Ele lida com o processo de levar a sua mensagem de uma caixa de saída para um servidor de e-mail e, finalmente, para a caixa de entrada do destinatário.
+POP3(Post Office Protocol 3): É o responsável por baixa as mensagens do servidor para o seu dispositivo, e geralmente as apaga do servidor. Pense nisso como ir ao correio e pegar todas as suas cartas de uma vez, esvaziando a caixa postal.
+IMAP(Internet Message Access Control): Permite que você acesse os e-mails diretamente no servidor. Ele é muito mais flexível, pois as mensagens ficam no servidor e são sincronizadas entre todos os seus dispositivos. É o que acontece quando você acessa o Gmail pelo computador e pelo celular, e tudo está em sincronia.
+
+NOTA: Para receber e enviar e-mails o protocolo SMTP trabalha em conjunto com o POP3 e o IMAP. O SMTP cuida da parte do envio e POP3 e o IMAP cuidam da parte do recebimento.
+NOTA: A maioria dos protocolos não trabalham sozinho, são projetados para sempre estar em conjuntos. A maioria dos protocolos dependem do TCP e do IP para enviar os dados corretos e organizados de de um dispositivo para outro. Por isso o conceito de que a internet é construída sobre a Pilha de protocolos TCP/IP.
+
+O que é o protocolo HTTP?
+Hypertext Tranfer Protocol(HTTP) é o protocolo fundamental da internet. Pense nele como o protocolo que permite que você acesse websites. Sempre que você digita um endereço como www.google.com no seu navegador, ou clica em um link, você está usando o HTTP.
+
+Como funciona o HTTP?
+Ele funciona no modelo pedido-resposta(request-response em inglês) da seguinte maneira:
+1. (request)Quando você solicita uma URL, o seu navegador envia uma mensagem para o servidor compatível com a URL. Essa solicitação contém informações como o que você quer acessar (a página inicial, uma imagem específica, etc.).
+2. (response)O servidor recebe a solicitação, encontra o arquivo que você solicitou e o envia de volta ao seu navegador.
+3. O navegador recebe a resposta do servidor (que pode ser uma página HTML, uma imagem, um vídeo, etc.) e a exibe na tela para você.
+
+NOTA: Note que no processo descrito de request e response, não há nada que assegure a privacidade dos dados. É aí que entra o protocolo HTTPS.
+
+O que é o HTTPS?
+O Hypertext Tranfer Protocol Secure(HTTPS) faz a mesma coisa que o HTTP, porém, com uma camada de segurança.
+
+Como funciona o HTTPS?
+O HTTPS criptografa (codifica) a comunicação entre o seu navegador e o servidor. Essa criptografia é crucial para proteger dados sensíveis, como senhas e informações de cartão de crédito. Se você está em um site de compras ou banco, por exemplo, o HTTPS garante que ninguém consiga "espiar" a sua conversa com o servidor.
+
+O que é um nome de domínio?
+O Nome de Domínio é o endereço que você digita na barra de endereço do seu navegador (como google.com.br, wikipedia.org, ou uol.com.br). Ele serve para nos ajudar a encontrar sites na internet de forma mais fácil. Pense no endereço IP como o número do telefone de uma pessoa. Você precisa saber esse número para ligar para a pessoa. Já o Nome de Domínio é como o nome da pessoa na sua agenda de contatos (por exemplo, "Maria"). É muito mais fácil lembrar de "Maria" do que do número de telefone dela.
+
+Como funciona o Nome de Domínio?
+Sabemos que os dispositivos comunicam-se através de conjuntos de protocolos e não é diferente quando realizamos um request do navegador para o servidor. Como mostrado na definição, um nome de domínio é uma sequencia de caracteres divididos por pontos.
+O modelo para criar um nome de domínip é: subdomínio.domínio.tld ou subdomínio.domínio.tld.cctld
+
+Temos a seguinte URL: https://www.google.com.br/
+O termo https se refere ao protocolo de comunicação que var ser utilizado entre navegador e servidor.
+o termo www(Worl Wide Web), é o subdomínio. Subdomínios servem para organizar e separar seções de um site. "WWW" é o mais comum, mas poderiam ser outros, como blog.google.com ou mail.google.com. Cada subdomínio pode levar a um conteúdo ou serviço diferente, mesmo estando sob o mesmo domínio principal.
+o termo google é o domínio. É o nome que o responsável do website escolheu e também é o nome que vocẽ utiliza na URL para buscar o website na internet. No nosso exemplo, queremos acessar o website da empresa Google.
+o termo com é o domínio de nível de nível superior(TLD - Top Level Domain). Serve para indicar que tipo de website será retornado. Geralmente utiliza-se um padrão de acordo com o tipo do website por exemplo: .com para website comerciais, .org para webistes de organizações, .gov para websites do governo, .edu para websites educativos, .net para websites de serviços de internet.
+o termo br é o domínio de nível superior de código de país(ccTLD - Country Code Top Level Domain). Geralmente atrelado ao código do país ou tipo de organizações, que no caso mostrado é Brasil.
+
+O que é Hospedagem?
+Hospedagem é um seviço prestado por um servidor para disponibilizar websites na rede. Se o nome de domínio é como o nome na sua agenda de contatos (por exemplo, "Maria") e o endereço IP é o número do telefone, a hospedagem é o local físico onde a "Maria" mora, ou seja, onde o site realmente está. A hospedagem é o serviço que armazena todos os arquivos e dados do seu site, como textos, imagens, vídeos, códigos, etc., e os mantém em um computador especial, chamado servidor web. Um servidor web é um computador de alta potência, projetado para ficar ligado 24 horas por dia, 7 dias por semana, conectado à internet com alta velocidade. Ele está sempre pronto para receber um pedido do seu navegador e entregar os arquivos do site. Em resumo, a hospedagem é o serviço que fornece o local (o servidor) para que um site exista e seja acessível na internet. Sem a hospedagem, o seu nome de domínio não teria para onde apontar, e o seu site não poderia ser visto por ninguém.
+
+Como funciona a hospedagem?
+Quando enviamos uma solicitação URL para buscar um website, essa URL vai para o DNS(Domain Name System), traduz o nome de domínio para o endereço IP do servidor onde o site está hospedado. Caso o endereço IP exista, o seu navegador conecta com o servidor, que envia os dados pedidos para o navegador. Após o retorno dos dados, o navegador monta a estrutura dos dados na tela, e exibe ao usuário.
+
+O que é DNS(Domain Name System)?
+DNS é um conjunto de servidores que trabalham para traduzir os nomes de domínio em endereços IP. Cada servidor do conjunto tem um serviço de tradução de URLs.
+
+Quais são os tipos de servidores DNS?
+Quando você acessa a internet, seu computador utiliza servidores DNS de forma hierárquica, seguindo essas ordem:
+Servidor DNS Local(Disponibilizado pelo seu provedor de Internet): É o primeiro servidor que seu computador consulta. Ele é fornecido automaticamente pelo seu provedor de internet (Vivo, Claro, etc.). É o servidor que tenta resolver a sua solicitação primeiro, buscando a informação em seu próprio cache (memória temporária).
+Servidor DNS Raiz: Atualmente existem 13 tipos de servidores raiz no mundo. Eles são os o topo da hierarquia do DNS e contém uma lista de servidores que são responsáveis pelo domínio de nível superior.
+Servidor DNS de TLD: Esses servidores são responsáveis por gerenciar os domínios de nível superior. Eles sabem onde encontrar os servidores autoritativos para os nomes de domínios específicos, como google.com ou uol.com.br, por exemplo.
+Servidor DNS de Nome Autoritativo: Esses são os servidores que contém os dados oficiais de um domínio. Se você é dono de um website, seu servidor de hospedagem terá um servidor de nome autoritativo. Ele é o único que sabe extamente onde o endereço IP do seu website está.
+
+O que é um browser(Navegador).
+Ele é um software que interpreta e exibe o conteúdo da World Wide Web. Em termos mais simples, ele é a ferramenta que você usa para acessar sites, fazer compras online, assistir a vídeos e ler e-mails. Os exemplos mais conhecidos são o Chrome, Firefox, Safari e Edge.
+
+Que tipo de problema os browsers resolvem?
+Imagine a internet como uma grande biblioteca cheia de livros escritos em diferentes línguas e formatos. O problema é que a maioria das pessoas não entende todas essas línguas nem como ler os livros sem um guia. O navegador resolve esse problema: ele é o "tradutor e leitor" universal. Ele pega os dados brutos que vêm dos servidores web — que estão em linguagens como HTML, CSS e JavaScript — e os transforma em páginas visualmente atraentes e interativas, que você pode ler e navegar. Sem um navegador, você só veria o código puro das páginas, o que seria completamente incompreensível para a maioria das pessoas.
