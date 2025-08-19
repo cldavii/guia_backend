@@ -10,6 +10,6 @@ A linguagem de programação que escolhi para dar continuidade com o guia foi Ja
 
 [Java COMPLETO Programação Orientada a Objetos + Projetos](https://www.udemy.com/course/java-curso-completo/)
 
-Para quem não quiser ou não pode gastar, pode seguir a trilha de Java que está disponível no website da roadmap.sh e seguir os tópicos. Vale lembrar que o website também possui trilhas para a maioria das linguagens de programação!
+Para quem não quiser ou não pode gastar, pode seguir a trilha de Java que está disponível no website da **roadmap.sh** e seguir os tópicos. Vale lembrar que o website também possui trilhas para a maioria das linguagens de programação!
 
 [Trilha de Java](https://roadmap.sh/java)
