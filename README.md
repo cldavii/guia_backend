@@ -13,3 +13,5 @@ A linguagem de programação que escolhi para dar continuidade com o guia foi Ja
 Para quem não quiser ou não pode gastar, pode seguir a trilha de Java que está disponível no website da **roadmap.sh** e seguir os tópicos. Vale lembrar que o website também possui trilhas para a maioria das linguagens de programação!
 
 [Trilha de Java](https://roadmap.sh/java)
+
+As anotações sobre os **conceitos de programação** estão disponíveis neste arquivo: [Conceitos de Programação](https://github.com/cldavii/guia_backend/blob/master/conceitos_de_programa%C3%A7%C3%A3o.txt)
