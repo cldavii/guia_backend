@@ -1,0 +1,26 @@
+O que é lógica de programação?
+Lógica de programação é a forma que você analisa uma situação e pensa numa forma de transformar aquilo em programa. A lógica de programação é ligar os pontos de uma coisa que exite no mundo real e seguir o fluxo de coo essa coisa acontece para transformar em algoritmo e depois em programa.
+
+O que é um algoritmo?
+Algoritmo é uma sequência de passos que é definido através da lógica de programação. Essa sequência de passos deve estar dentro das regras e procedimentos devem ser criadas para resolver problemas específicos. Podemos associar isso a uma receita que tem por fim resolver algum problema digital. Os algoritmos são tranformados em programas após ser traduzido por uma linguagem de programação.
+
+O que é automação?
+Automação é o processo de ensinar o computador a executar tarefas pré-definidas através de algoritmos. Quando você cria um algoritmo e o computador executa, ele deve seguir a risca tudo que tá especificado no algoritmo. Isso é chamado de automação.
+
+O que é programa de computador?
+Um programa de computador é um conjunto de algoritmos que trabalham juntos para realizar uma ou mais tarefas. Se um algoritmo faz uma tarefa específica, vários algoritmos combinados fazem múltiplas tarefas e resolvem problemas mais complexos, o que chamamos de programa de computador.
+
+o que é linguagem de programação?
+Linguagem de programação são um conjunto de regras e procedimentos que utilizamos para criar um código(algoritmo). Esse código deve seguir regras léxicas(Ortografia, palavra isolada) e sintáticas(Gramática, frase completa). Você não pode escreve caxorro sabendo que o certo é cachorro, a mesma coisa é com a linguagem de programação, tem que usar as palavras corretas. E você não utiliza a frase "A gato comeu minha caderno", está errado perante a gramática portuguesa, isso também se aplica a linguagem de programação, você deve formular os comando em ordem léxica e sintática.
+
+O que é uma IDE(Integrated Development Environment)?
+Um Ambiente de Desenvolvimento Integrado é um programa que permite você criar códigos de determinadas linguagens. Além de permitir criar, eles são capazes de dar manutenção, executar e integrar seu código a outras tecnologias e sistemas. Geralmente, algumas IDEs são específicas para uma linguagem, enquanto outras são mais genéricas e podem ser usadas para várias linguagens, dependendo das extensões instaladas.
+
+O que é compilação de código?
+O compilador é um programa que é instalado juntamente da linguagem de programação. O papel principal dele é analisar todo o código-fonte e apontar onde há erro de gramática e ortografia, se os comandos estão escritos de forma correta e coerente. Após a análise, o compilador traduz o código-fonte em código-binário, que é o tipo de código que o sistema operacional consegue ler e executar. Se tiver erros durante a compilação, um alerta de erro é exibido no console. A grande diferença para a interpretação é que, a cada mudança, o processo de compilação precisa ser refeito. Em projetos grandes, essa etapa pode levar tempo.
+
+O que é interpretação de código?
+O interpretador é um programa que é instalado juntamente da linguagem de programação. Seu papel é traduzir o código-fonte em código binário durante a execução, uma linha por vez. Se o interpretador encontra um erro em uma linha, ele para a execução naquele ponto. O JIT(Just-in-Time) é uma tecnologia usada em muitos interpretadores que melhora a performance ao compilar as partes mais executadas do código(os 'hot spots') para código de máquina(binary-code ou código-binário), que é muito mais rápido. Essa compilação acontece em tempo real, durante a execução do programa. Diferente do compilador, o interpretador para a execução assim que encontra um erro, não analisa todo o código para depois alertar sobre o erro.
+
+O que é código-fonte?
+Código-fonte é o código que nós humanos escrevemos antes de executar. Como os seres humanos possuem dificuldades para entender e escrever o código de máquina(código-binário), o código-fonte é responsável por possuir os comandos de forma legível a humanos. O código-fonte é escrito em uma "linguagem de alto nível"(como Python, Java, C++, etc.), que são linguagens criadas para serem mais parecidas com a linguagem humana. Isso é o oposto do "código de baixo nível", como o código de máquina, que é uma sequência de 0s e 1s(0011 0100 1101 1010), e o assembly, que utiliza mnemônicos. Para que o código-fonte se torne um programa executável, ele precisa passar por um processo de tradução. Essa tradução é feita por um compilador ou um interpretador, que convertem a versão legível por humanos para o formato que o computador entende.
